@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/greeting', 'GreetingController@index');
 Route::post('/greeting/welcome', 'GreetingController@welcome');
+Route::get('/greeting/hello', 'GreetingController@hello');
